@@ -1,23 +1,12 @@
-/* =========================
-   GENERAL WEBSITE
-========================= */
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #263746;
-
-    background:
-        linear-gradient(135deg, #eef4f8, #ffffff 50%, #e7eff5);
-
+    background: linear-gradient(135deg, #eef4f8, #ffffff 50%, #e7eff5);
     min-height: 100vh;
 }
 
-
-/* =========================
-   HEADER
-========================= */
-
+/* Header */
 header {
     background: #1f3c5b;
     color: white;
@@ -30,98 +19,62 @@ header h1 {
     margin: 0;
     font-size: 38px;
     font-weight: 600;
-    letter-spacing: 0.5px;
 }
 
-
-/* =========================
-   MAIN CONTENT
-========================= */
-
+/* Main content */
 main {
     max-width: 900px;
     margin: 0 auto;
     padding: 35px 20px 60px;
 }
 
-
-/* =========================
-   PROFILE IMAGE
-========================= */
-
+/* Profile picture */
 .profile {
     text-align: center;
-    margin: 10px 0 30px;
+    margin: 5px 0 30px;
 }
 
 .profile img {
     width: 110px;
     height: 110px;
     object-fit: cover;
-
     border-radius: 50%;
     border: 4px solid white;
-
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
 }
 
-
-/* =========================
-   CONTENT BOXES
-========================= */
-
+/* Main boxes */
 section {
     background: white;
     padding: 30px;
     margin-bottom: 25px;
-
     border-radius: 12px;
-
-    box-shadow:
-        0 4px 15px rgba(31, 60, 91, 0.10);
-
     border: 1px solid #e1e8ee;
+    box-shadow: 0 4px 15px rgba(31, 60, 91, 0.10);
 }
 
-
-/* =========================
-   HEADINGS
-========================= */
-
+/* Headings */
 h2 {
     color: #1f3c5b;
     font-size: 25px;
-
     margin-top: 0;
     margin-bottom: 20px;
-
     padding-bottom: 10px;
-
     border-bottom: 2px solid #dce6ee;
 }
 
 h3 {
     color: #315a7d;
     font-size: 19px;
-    margin-top: 25px;
 }
 
-
-/* =========================
-   TEXT
-========================= */
-
+/* Paragraphs */
 p {
     font-size: 16px;
     line-height: 1.7;
-    margin-bottom: 15px;
 }
 
-
-/* =========================
-   SKILLS
-========================= */
-
+/* Skills */
 ol {
     padding-left: 25px;
     line-height: 1.9;
@@ -131,21 +84,13 @@ li {
     padding-left: 5px;
 }
 
-
-/* =========================
-   PROJECT BOXES
-========================= */
-
+/* Project boxes */
 article {
     background: #f7fafc;
-
     padding: 22px;
     margin-top: 20px;
-
     border-radius: 9px;
-
     border-left: 4px solid #315a7d;
-
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -154,11 +99,7 @@ article h3 {
     color: #1f3c5b;
 }
 
-
-/* =========================
-   LINKS
-========================= */
-
+/* Links */
 a {
     color: #1f5f8b;
     font-weight: 600;
@@ -170,13 +111,8 @@ a:hover {
     text-decoration: underline;
 }
 
-
-/* =========================
-   MOBILE
-========================= */
-
+/* Mobile */
 @media (max-width: 600px) {
-
     header h1 {
         font-size: 28px;
     }
